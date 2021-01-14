@@ -1,0 +1,127 @@
+body {
+  margin: 0px;
+  font-family:"Times New Roman";
+  text-align:center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1150px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+header {
+  height: 60px;
+  width: 100%;
+  background-color:red;
+  position:fixed;
+  top:0;
+  z-index:11;
+  opacity:1;
+  padding-bottom:20px;
+}
+.header-left {
+  opacity:1;
+  text-align:center;
+  float:left;
+}
+.header-left h1{
+  font-size:40px;
+}
+
+.header-right {
+  float:right;
+  background-color: rgba(255, 255, 255, 0.7);
+  transition: all 1s;
+}
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-right a {
+  line-height: 60px;
+  padding: 0 25px;
+  color:black;
+  display:inline-block;
+  font-size:25px;
+}
+.top-part {
+  padding: 100px 0px;
+  background-color:black;
+  color:gray;
+  text-align: center;
+}
+.top-part h1 {
+  opacity: 0.8;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+.btn-wrapper {
+  margin: 20px 0px;
+}
+.btn-wrapper p {
+  margin: 10px 0px;
+}
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 10px;
+}
+.btn:hover {
+  opacity: 1;
+}
+.linkedin {
+  background-color: #239b76;
+}
+
+.git{
+  background-color: #3b5998;
+}
+.Aboutme{
+  height: 500px;
+  padding-top:5px;
+  padding-bottom: 520px;
+  background-color:gray;
+  text-align: center;
+}
+.txt-contents {
+  width: 100%;
+  margin-top: 100px;
+  font-size:32px;
+  color: white;
+}
+.txt-contents h3{
+  width:100%;
+  margin-top:10px;
+  font-size:32px;
+  color:black;
+}
+.project {
+  padding-top:20px;
+  padding-bottom: 70px;
+  text-align:center;
+  background-color:black;
+}
+.heading h2{
+  font-size:40px;
+  width:100%;
+  color:gray;
+}
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 8px #1a7940;
+  border-radius:10px;
+}
+.message:active {
+  position: relative;
+  top:8px;
+  box-shadow: none;
+}
